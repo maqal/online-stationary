@@ -1,0 +1,15 @@
+<!-- login.component.html -->
+<div class="login-form">
+    <h2>USER LOGIN FORM</h2>
+    <form (submit)="login()">
+      <label for="email">E-MAIL:</label>
+      <input type="text" id="email" name="email" placeholder="Enter your Email" [(ngModel)]="email" required>
+  
+      <label for="password">PASSWORD:</label>
+      <input type="password" id="password" name="password" placeholder="Enter your Security Password" [(ngModel)]="password" required>
+       
+      <input type="submit" id="form-open" value="LOGIN">
+      <p class="opposite-btn">Don't have an account? <a routerLink="/register">Signup</a></p>
+    </form>
+  </div>
+  

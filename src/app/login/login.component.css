@@ -1,0 +1,60 @@
+
+body {
+    background-color: rgb(47, 89, 255);
+    font-family: Tahoma;
+    margin-top: 150px;
+}
+
+.login-form {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: #dcedda;
+} 
+
+h2 {
+    text-align: center;
+    font-family: Tahoma;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"],
+.login-form input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    font-family: Tahoma;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.login-form input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.login-form input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.opposite-btn {
+    text-align: center;
+    color: black;
+}
+
+.opposite-btn a {
+    padding: 5px 17px;
+    border-radius: 50px;
+    text-align: right;
+    margin-left: 4px;
+    font-family: Tahoma;
+    transition: 0.3s ease;
+    cursor: pointer;
+    background-color: green;
+}
